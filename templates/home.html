@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1>all User Lists</h1>
+        {% for project in projects %}
+        {{project.id}}
+        {% endfor %}
+        <!-- {{projects}} -->
+        </ul>
+    </div>
+</body>
+
+</html>
